@@ -1,2 +1,2 @@
 # mockweb
-## Lnding page design
+## Landing page design
