@@ -1,0 +1,310 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background:lightblue;
+    margin: 0px 40px 0px 10px;
+}
+.header{
+    background:darkblue url("img icon/mock.png");
+    height: 550px;
+    width: 1300px;
+    margin-left: 23.5px;
+    display: flex;
+    border: 1px solid black;
+}
+.size{
+    width: 5em;
+    height: 5em;
+    margin: 10px;
+}
+.header ul li{
+    display: inline-block;
+    position: relative;
+    left: 28em;
+    margin-top: 15px;
+
+}
+.header ul li a{
+     text-decoration: none;
+     color: gold;
+     margin-left: 20px;
+     font-size: 18px;
+}
+.icon1{
+     position: relative;
+    top: 15px;
+    left: 50em;
+    color: gold;
+    font-size: 15px;
+    cursor: pointer;
+}
+ .header ul #active a{
+    color: white;
+    border-bottom: 2px solid gold;
+}
+.header ul li a:hover{
+    color: darkgoldenrod;
+}
+.header ul #active a:hover{
+    color: darkgoldenrod;
+    border: none;
+}
+.second{
+     background: white;
+     margin: 0px 10px 0px 25px;
+     width: 100%;
+     height: 85em;
+     border: 1px solid black;
+}
+.text1{
+     text-align: center;
+}
+#h1{
+     font-family: sans-serif;
+     font-size: 50px;
+     padding: 35px;
+     padding-bottom: 10px;
+}
+#h3{
+     font-size: 20px;
+     padding-bottom: 34px;
+     color: dimgray;
+}
+.img2{
+    width: 25em;
+    height: 35em;
+    border: 1.5px solid rgba(0,0,255,0.1);
+}
+#website{
+      position: relative;
+      left: 10em;
+}
+#graphics{
+     position: relative;
+     left: 20em;
+}
+#cart{
+    position: relative;
+    top: 40em;
+    right: 5em;
+}
+#vector{
+     position: relative;
+     left: 10em;
+     top:  6.5em;
+     height: 32em;
+    filter: drop-shadow(8px,8px,4px,red);
+}
+.service{
+     background: gray;
+     margin-left: 25px;
+     width: 100%;
+     height: 70%;
+     position: relative;
+     border: 1px solid black;
+}
+.servicetext{
+     background: blue;
+     width:  90%;
+     height: 80%;
+     margin-left: 70px;
+     position: absolute;
+     top: 62px;
+}
+.tour-pre{
+     color: whitesmoke;
+     text-align: center;
+     font-size: 50px;
+     margin-top: 15px;
+     font-family: Ubuntu Condensed,serif;
+}
+.cta-services{
+       background: white;
+       border-radius: 20px;
+       border: 2px solid rgba(50,0,0,0.8);
+       position: absolute;
+       left: 16.5em;
+       top: 8em;
+       width: 300px;
+       height: 65px;
+       font-size: 25px;
+       text-align: center;
+       cursor: pointer;
+}
+.cta-services:hover{
+     background-color: antiquewhite;
+}
+.arrow{
+      font-size: 40px;
+      position: absolute;
+      left: 5.5em;
+      bottom: 5px;
+}
+.arrow:hover{
+     color: darkslateblue;
+}
+.about{
+     background: black;
+     margin-left: 25px;
+     width: 100%;
+     height: 40em;
+     border: 1px solid black;
+     position: relative;
+}
+.about-h3{
+     color: white;
+     text-align: center;
+     margin: 50px;
+     font-size: 40px;
+}
+.rohlogo{
+     width: 40%;
+     position: absolute;
+     top: 5em;
+     margin: 10px;
+}
+.about-right2{
+     color: white;
+     margin: 10px;
+     width: 40%;
+     position: absolute;
+       bottom: 16em;
+       left: 34.5em;
+     font-size: 18px;
+     font-family: Ubuntu Condensed ,serif;
+}
+.about-right{
+      color: white;
+       position: absolute;
+       bottom: 1em;
+       left: 35em;
+       font-size: 18px;
+       font-family: Ubuntu Condensed,serif;
+}
+.about-h2-1{
+     position: absolute;
+     bottom: 6em;
+}
+.about-h2-2{
+     position: absolute;
+     top: 1px;
+}
+.client-review{
+      background: white;
+      width: 100%;
+      border: 1px solid black;
+      margin-left: 25px;
+      height: 93%;
+      position: relative;
+}
+.client-h3{
+     text-align: center;
+     margin-top: 45px;
+     font-size: 45px;
+}
+.client-h3b{
+       text-align: center;
+       margin-top: 60px;
+       font-family: sans-serif;
+}
+.client-h5{
+       text-align: center;
+       margin-top: 5px;
+       font-family: sans-serif;
+       font-size: 15px;
+       color: gray;
+}
+.client-h5b{
+       text-align: center;
+       margin-top: 65px;
+       font-family: sans-serif;
+       font-size: 15px;
+       color: gray;
+}
+.client-container{
+     display: flex;
+     justify-content: space-between;
+     }
+.sub-client-con{
+      background: white;
+      filter: drop-shadow(10px 10px 40px);
+      width: 30%;
+      height: 20em;
+      margin: 100px 20px 0px 20px;
+}
+.client-img{
+      position: absolute;
+      top: 1em;
+      left: -4em;
+      width: 75%;
+}
+#client-img{
+      width: 200%;
+      position: absolute;
+      top: -8em;
+      left: -20em;
+}
+.review-icon{
+     width: 40%;
+     margin: 30px;
+     filter: drop-shadow(0px 0px 5px gray);
+}
+.footer{
+      display: flex;
+      justify-content: space-around;
+      background-color: darkblue;
+      width: 100%;
+      height: 30%;
+      margin-left: 26px;
+      border: 1px solid black;
+}
+.h3-footer{
+     color: white;
+}
+.contact-footer{
+      margin-top: 50px;
+}
+.service-footer{
+      margin-top: 50px;
+}
+.about-footer{
+     margin-top: 50px;
+}
+.contact-footer ul li {
+     list-style-type: none;
+      display: block;
+      margin-top: 10px;
+}
+.contact-footer ul li a{
+      text-decoration: none;
+      color: azure;
+}
+.contact-footer ul li a:hover{
+      color: burlywood;
+}
+.service-footer ul li{
+     list-style-type: none;
+      display: block;
+      margin-top: 10px;
+}
+.service-footer ul li a{
+     text-decoration: none;
+      color: azure;
+}
+.service-footer ul li a:hover{
+      color: burlywood;
+}
+.about-footer ul li{
+    list-style-type: none;
+      display: block;
+      margin-top: 10px;
+}
+.about-footer ul li a{
+      text-decoration: none;
+      color: azure;
+}
+.about-footer ul li a:hover{
+      color: burlywood;
+}
